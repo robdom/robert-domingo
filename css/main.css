@@ -54,6 +54,10 @@ body {
 }
 
 /* HEADER STYLES */
+.header {
+  /*background-color: #000;*/
+  color: #fff;
+}
 .header-nav {
   float: right;
   padding: 5.5vh 60px 0 0;
@@ -75,13 +79,26 @@ body {
 }
 .header-nav a:hover,
 .header-nav a:active {
-  color: #ed6e2f;
+  color: #2c81f7;
 }
 .header-nav > li:first-child a {
-  color: #ed6e2f;
+  color: #2c81f7;
 }
 .header-nav > li:first-child a:hover {
   color: #000;
+}
+.header-logo {
+  /*background-color: #f00;*/
+  box-sizing: border-box;
+  display: block;
+  height: 10vh;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  width: 10vh;
+}
+.header-logo img {
+  height: 80%;
 }
 .header-logo:hover,
 .header-logo:active {
