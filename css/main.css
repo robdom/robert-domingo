@@ -111,6 +111,7 @@ body {
 /* FOOTER STYLES */
 
 .footer {
+  padding: 8vh 0 15vh;
   text-align: center;
 }
 .footer img {
@@ -129,4 +130,54 @@ body {
 }
 .footer-nav a {
   color: #000;
+}
+
+/* HERO STYLES */
+.full-hero h1{
+  font-size: 32px;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 1em;
+  text-align: center;
+}
+.full-hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+.full-hero h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 1em;
+  text-align: center;
+}
+
+/* SOCIAL STYLES */
+.soc-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.social {
+  background: rgba(150, 150, 150, 0.5);
+  border-radius: 99px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: helvetica, arial, sans;
+  font-size: 1.7em;
+  font-weight: bold;
+  height: 1.5em;
+  line-height: 1;
+  padding-top: 0.25em;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  width: 1.5em;
+}
+.soc-list > li {
+  display: inline-block;
+  margin: 0 0.5em;
 }
