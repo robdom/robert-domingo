@@ -161,7 +161,8 @@ body {
   text-align: center;
 }
 .social {
-  background: rgba(150, 150, 150, 0.5);
+  /*background: rgba(150, 150, 150, 0.5);*/
+  background: #2c81f7;
   border-radius: 99px;
   box-sizing: border-box;
   color: #fff;
@@ -176,6 +177,10 @@ body {
   text-decoration: none;
   vertical-align: middle;
   width: 1.5em;
+}
+.social:hover {
+  background-color: #000;
+  color: #fff;
 }
 .soc-list > li {
   display: inline-block;
