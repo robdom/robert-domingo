@@ -49,14 +49,20 @@ a img {
 /* GLOBAL STYLES */
 
 body {
-  font-family: 'Oxygen', sans-serif;
-/*  font-family: helvetica, arial, sans;*/
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oxygen', helvetica, arial, sans;
+  min-height: 100vh;
+}
+.content-container {
+  background: pink;
+  padding-top: 10vh;
+  flex-grow: 1;
 }
 
 /* HEADER STYLES */
 .header {
-  /*background-color: #000;*/
-  /*color: #fff;*/
+  background: green;
   z-index: 20;
 }
 .header-nav {
@@ -91,7 +97,6 @@ body {
   color: #000;
 }
 .header-logo {
-  /*background-color: #f00;*/
   box-sizing: border-box;
   display: block;
   height: 10vh;
@@ -111,7 +116,8 @@ body {
 /* FOOTER STYLES */
 
 .footer {
-  padding: 8vh 0 15vh;
+  background: yellow;
+  padding: 8vh 0 5vh;
   text-align: center;
 }
 .footer img {
@@ -161,7 +167,6 @@ body {
   text-align: center;
 }
 .social {
-  /*background: rgba(150, 150, 150, 0.5);*/
   background: #2c81f7;
   border-radius: 99px;
   box-sizing: border-box;
