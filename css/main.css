@@ -191,3 +191,31 @@ body {
   display: inline-block;
   margin: 0 0.5em;
 }
+
+
+@media (max-width: 800px) {
+
+  /*HEADER STYLES */
+  .header-nav {
+    padding: 2vh 1em 0 0;
+  }
+  .header-nav > li {
+    margin-left: 0.25em;
+  }
+  .header-nav > li ~ li {
+    padding-left: 0.25em;
+  }
+  .nav-links a {
+    font-size: 3.25vw;
+  }
+  .header-logo {
+    left: auto;
+  }
+
+   /*HERO STYLES */
+
+  .full-hero h3 {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+}
