@@ -51,13 +51,17 @@ a img {
 body {
   display: flex;
   flex-direction: column;
-  font-family: 'Oxygen', helvetica, arial, sans;
+  font-family: 'Open Sans', sans-serif;
   min-height: 100vh;
 }
 .content-container {
   background: pink;
   padding-top: 10vh;
   flex-grow: 1;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
 }
 
 /* HEADER STYLES */
