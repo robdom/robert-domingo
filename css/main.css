@@ -90,10 +90,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .nav-links a:hover,
 .nav-links a:active {
-  color: #2c81f7;
+  color: #5599ff;
 }
 .header-nav > li:first-child a {
-  color: #2c81f7;
+  color: #5599ff;
 }
 .header-nav > li:first-child a:hover {
   color: #000;
@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,h6 {
   text-transform: uppercase;
 }
 .footer h3 span {
-  color: #2c81f7;
+  color: #5599ff;
 }
 .footer-nav li {
   display: inline-block;
@@ -168,7 +168,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 .social {
-  background: #2c81f7;
+  background: #5599ff;
   border-radius: 99px;
   box-sizing: border-box;
   color: #fff;
