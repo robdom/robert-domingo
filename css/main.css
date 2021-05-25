@@ -213,6 +213,14 @@ h1,h2,h3,h4,h5,h6 {
   padding-top: 3em;
 }
 
+/* WRITING STYLES */
+.writing-headline h3 {
+  font-size: 1.5vw;
+  line-height: 1.5;
+  margin-left: 15em;
+  margin-right: 15em;
+  padding-top: 1em;
+}
 
 @media (max-width: 800px) {
 
