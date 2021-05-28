@@ -302,4 +302,52 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: 2.5em;
     padding-top: 3em;
   }
+
+  /* WRITING STYLES */
+
+  .writing-headline h1 {
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1em;
+  }
+  .writing-headline h3 {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-left: 3em;
+    margin-right: 5em;
+  }
+
+
+  /* ARTICLE STYLES */
+
+  .article-headline {
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .article-date {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-left: 2.5em;
+    padding-top: 0.25em;
+  }
+  .article-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-left: 4.5em;
+    margin-right: 5em;
+  }
+  .article-text li {
+    font-size: 0.75em;
+    line-height: 1.5;
+    margin-left: 7em;
+    margin-right: 5em;
+  }
+  .article-text h2 {
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin-left: 3em;
+    margin-right: 5em;
+  }
 }
